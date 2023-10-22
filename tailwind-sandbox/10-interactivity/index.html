@@ -1,33 +1,167 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../css/main.css" />
     <title>Interactivity</title>
   </head>
   <body>
     <!-- Hover State Styling -->
+    <button
+      class="bg-black text-white py-3 px-5 rounded-lg m-3 hover:bg-orange-500 hover:border-b-4 hover:border-r-4 hover:border-slate-600"
+    >
+      Hello world
+    </button>
 
     <!-- Focus State Styling -->
+    <button
+      class="bg-black text-white py-3 px-5 rounded-lg m-3 focus:bg-orange-500 focus:border-b-4 focus:border-r-4 focus:border-slate-600"
+    >
+      Hello world
+    </button>
 
     <!-- Active State Styling -->
+    <button
+      class="bg-black text-white py-3 px-5 rounded-lg m-3 active:bg-orange-500 active:border-b-4 active:border-r-4 active:border-slate-600"
+    >
+      Hello world
+    </button>
 
     <!-- Styling based on parent state -->
+    <a
+      href=""
+      class="group block max-w-xs mx-auto rounded-lg p-6 bg-white shadow-lg space-y-3 hover:bg-sky-500"
+    >
+      <h3 class="group-hover:text-white">Card Title</h3>
+      <p class="group-hover:text-white">This is the card text</p>
+    </a>
 
     <!-- Pseudo Classes -->
+    <ul>
+      <li class="first:bg-red-500 even:bg-green-400 odd:bg-orange-300">
+        Item 1
+      </li>
+      <li class="first:bg-red-500 even:bg-green-400 odd:bg-orange-300">
+        Item 2
+      </li>
+      <li class="first:bg-red-500 even:bg-green-400 odd:bg-orange-300">
+        Item 3
+      </li>
+      <li class="first:bg-red-500 even:bg-green-400 odd:bg-orange-300">
+        Item 4
+      </li>
+      <li class="first:bg-red-500 even:bg-green-400 odd:bg-orange-300">
+        Item 5
+      </li>
+      <li class="first:bg-red-500 even:bg-green-400 odd:bg-orange-300">
+        Item 6
+      </li>
+    </ul>
 
     <!-- Appearance -->
     <!-- Use appearance-none to reset any browser specific styling on an element. This utility is often used when creating custom form components. -->
-
+    <select name="" id="" value="yes" class="appearance-none">
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select>
+    <br />
     <!-- Cursor -->
-
+    <button
+      class="cursor-wait bg-black text-white py-3 px-5 rounded-lg m-3 hover:bg-orange-500 hover:border-b-4 hover:border-r-4 hover:border-slate-600"
+    >
+      Hello world
+    </button>
     <!-- Resize -->
 
     <!-- User Select -->
+    <div class="select-none">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus
+      mollitia sunt dolor hic modi suscipit quidem! Quisquam, quod hic sapiente
+      animi nulla, nesciunt natus earum reprehenderit accusamus, magni
+      laudantium autem.
+    </div>
+    <div class="select-text">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus
+      mollitia sunt dolor hic modi suscipit quidem! Quisquam, quod hic sapiente
+      animi nulla, nesciunt natus earum reprehenderit accusamus, magni
+      laudantium autem.
+    </div>
+    <div class="select-all">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus
+      mollitia sunt dolor hic modi suscipit quidem! Quisquam, quod hic sapiente
+      animi nulla, nesciunt natus earum reprehenderit accusamus, magni
+      laudantium autem.
+    </div>
+    <div class="select-auto">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus
+      mollitia sunt dolor hic modi suscipit quidem! Quisquam, quod hic sapiente
+      animi nulla, nesciunt natus earum reprehenderit accusamus, magni
+      laudantium autem.
+    </div>
 
     <!-- Smooth Scroll Example -->
+    <a href="#item" class="block my-6">go to item</a>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit,
+      placeat eveniet aliquid dolores a tempore molestias maxime ipsum
+      dignissimos ipsa architecto soluta consequatur repellendus eum dolorum
+      doloremque, dicta, odio dolor iusto molestiae iste saepe ratione. Sed vero
+      soluta, quod, dolorum fuga unde sit ipsum aliquid blanditiis, architecto
+      ex voluptatibus alias itaque tempora iure deserunt nulla eum. Delectus
+      labore praesentium veniam laboriosam dolorem ullam voluptatem quas ex,
+      placeat repudiandae nemo iste, consequuntur exercitationem at quae alias
+      distinctio cupiditate mollitia soluta error quos omnis explicabo. Fugiat
+      commodi debitis exercitationem blanditiis itaque nemo pariatur dolore
+      reprehenderit aspernatur velit molestias, magni sit vel earum minima enim
+      quisquam beatae laboriosam fuga incidunt eaque iure accusamus! Enim
+      impedit sapiente quos? Nisi quasi delectus quo itaque unde ipsam
+      consequatur sapiente vel ea sint harum necessitatibus est numquam impedit
+      neque provident omnis velit aspernatur reprehenderit maxime, aperiam
+      pariatur odio sunt? Quidem iusto explicabo sed fugit doloribus error quos
+      accusamus accusantium ipsum, laboriosam, tempore voluptatum soluta sint
+      aut minus labore, tempora asperiores? Odit, molestias a veritatis quos
+      aperiam beatae velit nesciunt consectetur voluptatem, sequi accusamus
+      veniam ab incidunt tempore totam laudantium repellendus voluptates qui,
+      quam aspernatur? Sapiente harum odio autem quidem repellat officiis
+      incidunt quae labore quasi illum, cupiditate laborum qui voluptate dicta
+      ratione totam similique doloremque mollitia odit enim maiores dolores sed?
+      Optio quidem, doloribus reiciendis error nemo itaque sapiente perferendis
+      quasi, pariatur commodi odit soluta facilis eum! Soluta voluptatibus
+      exercitationem molestiae, autem atque, illum dolorem velit quia quos cum
+      alias ipsam delectus voluptas, deserunt iste. Dolorum fugit quisquam ipsam
+      est placeat! Officiis esse consectetur iusto, doloremque accusamus
+      architecto quod quidem vitae voluptas dicta ratione nobis adipisci libero
+      rerum, alias necessitatibus ab! Modi enim repudiandae impedit nulla
+      aliquid aspernatur repellendus magni est dicta. Debitis, consequuntur id,
+      odio commodi cupiditate ad delectus nam omnis voluptatem sit mollitia
+      deserunt doloribus architecto consequatur fuga. Odio, eligendi quod ab,
+      voluptates, ad nemo sunt beatae numquam corporis tempore cupiditate
+      exercitationem vel excepturi nesciunt sint quis! Nulla molestiae sit odit
+      rem. Veritatis ratione impedit dolorem dolores, sed quae pariatur ut illo
+      nemo, dicta nulla consectetur nisi eligendi repellendus voluptatem quia
+      labore inventore nostrum cupiditate officiis architecto. Maiores modi
+      autem nemo ipsum ullam est nulla deleniti voluptatem facere sed laborum,
+      eos eum dignissimos recusandae itaque velit et earum sint cumque
+      distinctio voluptas vel! Magni ratione excepturi veritatis nemo optio
+      officia. Saepe ex natus ipsam enim tempore quo, quae eaque fugiat
+      temporibus. Optio exercitationem tenetur eligendi!
+      aliquid aspernatur repellendus magni est dicta. Debitis, consequuntur id,
+      odio commodi cupiditate ad delectus nam omnis voluptatem sit mollitia
+      deserunt doloribus architecto consequatur fuga. Odio, eligendi quod ab,
+      voluptates, ad nemo sunt beatae numquam corporis tempore cupiditate
+      exercitationem vel excepturi nesciunt sint quis! Nulla molestiae sit odit
+      rem. Veritatis ratione impedit dolorem dolores, sed quae pariatur ut illo
+      nemo, dicta nulla consectetur nisi eligendi repellendus voluptatem quia
+      labore inventore nostrum cupiditate officiis architecto. Maiores modi
+      autem nemo ipsum ullam est nulla deleniti voluptatem facere sed laborum,
+      eos eum dignissimos recusandae itaque velit et earum sint cumque
+      distinctio voluptas vel! Magni ratione excepturi veritatis nemo optio
+      officia. Saepe ex natus ipsam enim tempore quo, quae eaque fugiat
+      temporibus. Optio exercitationem tenetur eligendi!
+    </p>
+    <div id="item">TEst of the scroll</div>
   </body>
 </html>
 

@@ -4,11 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../css/main.css" />
     <title>Breakpoints & Media Queries</title>
   </head>
   <!-- Tailwind is mobile-first -->
-  <body></body>
+  <body class="bg-black sm:bg-green-700 md:bg-blue-700">
+    <h1 class="text-white text-xl md:text-4xl"></h1>
+
+    <script>
+      function showBrowserWidth() {
+        const width = window.innerWidth;
+        document.querySelector("h1").innerText = `Width: ${width}px`;
+      }
+      window.onload = showBrowserWidth
+      window.onresize = showBrowserWidth
+    </script>
+  </body>
 </html>
 
 <!-- Breakpoint Classes
