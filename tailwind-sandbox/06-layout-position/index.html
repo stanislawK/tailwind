@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <title>TailwindCSS</title>
+  </head>
+  <body>
+    <!-- Positioning -->
+    <div class="relative h-12 bg-red-200 w-1/2">
+      <p>Parent element</p>
+      <div class="absolute bottom-0 right-0 bg-red-500">
+        <p>absolute child</p>
+      </div>
+    </div>
+
+    <!-- Top left corner -->
+    <div class="relative h-32 w-32 bg-yellow-200">
+      <p>parent</p>
+      <div class="absolute left-0 top-0 bg-orange-700">
+        <p>child</p>
+      </div>
+    </div>
+
+    <!-- Top right corner -->
+
+    <!-- Bottom left corner -->
+
+    <!-- Bottom right corner -->
+
+    <!-- Span top edge -->
+    <div class="relative h-32 w-32 bg-red-200">
+      <div class="absolute top-0 inset-x-0 h-16 bg-red-500"></div>
+    </div>
+
+    <!-- Span left edge -->
+    <div class="relative h-32 w-32 bg-red-200">
+      <div class="absolute left-0 inset-y-0 w-16 bg-red-500"></div>
+    </div>
+
+    <!-- Span right edge -->
+
+    <!-- Span bottom edge -->
+
+    <!-- Display Classes -->
+    <div>
+      Lorem ipsum dolor, sit
+      <span class="inline font-bold">amet consectetur adipisicing elit.</span>
+      <span class="inline-block font-semibold"
+        >Est nemo velit magni ullam dolore et. Accusantium eveniet voluptatum
+      </span>
+      <span class="block text-red-200"
+        >et laboriosam libero iusto facere officia corrupti aliquid nisi eum
+        nostrum
+      </span>
+      quo, magni, consequatur sint fuga ea consectetur hic sit provident in quod
+      corporis voluptatem. Nam dolores praesentium, doloribus corrupti dolorum
+      quibusdam quia unde impedit maiores eum voluptas blanditiis ab nesciunt
+      rerum?
+    </div>
+
+    <!-- Z-Index -->
+    <div class="relative h-36">
+      <div class="absolute w-24 h-24 bg-blue-200 left-10 z-40">1</div>
+      <div class="absolute w-24 h-24 bg-blue-300 left-20">2</div>
+      <div class="absolute w-24 h-24 bg-blue-400 left-40 z-10">3</div>
+      <div class="absolute w-24 h-24 bg-blue-700 left-60 z-20">4</div>
+      <div class="absolute w-24 h-24 bg-blue-800 left-80 z-30">5</div>
+    </div>
+    <!-- Floats -->
+    <div class="w-1/2">
+      <img
+        src="../assets/img/img1.jpg"
+        alt=""
+        class="w-60 h-60 float-right m-4"
+      />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+        dignissimos quibusdam facilis expedita optio repellat est sapiente
+        quaerat. Sapiente dolorem excepturi deserunt eligendi vero. Consequatur
+        neque distinctio ratione natus dolore. Lorem ipsum dolor sit amet
+        consectetur, adipisicing elit. Voluptate animi tenetur pariatur sunt est
+        neque, aspernatur mollitia dolorem harum nobis iste quibusdam tempora
+        dolorum soluta velit voluptatem, excepturi officia aliquid.
+      </p>
+    </div>
+    <div class="w-1/2 mt-4">
+      <img
+        src="../assets/img/img1.jpg"
+        alt=""
+        class="w-32 h-32 float-left m-4"
+      />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+        dignissimos quibusdam facilis expedita optio repellat est sapiente
+        quaerat. Sapiente dolorem excepturi deserunt eligendi vero. Consequatur
+        neque distinctio ratione natus dolore. Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Explicabo, omnis? Exercitationem pariatur,
+        quod tempore ad est atque facere fugit necessitatibus enim quam nam
+        cumque commodi soluta labore accusamus distinctio totam?
+      </p>
+    </div>
+  </body>
+</html>
+
+<!-- Position Classes
+      static	    position: static;
+      fixed	      position: fixed;
+      absolute	  position: absolute;
+      relative	  position: relative;
+      sticky	    position: sticky;
+    -->
+
+<!-- Display Classes
+      block	            display: block;
+      inline-block	    display: inline-block;
+      inline	          display: inline;
+      flex	            display: flex;
+      inline-flex	      display: inline-flex;
+      table	            display: table;
+      grid	            display: grid;
+      inline-grid	      display: inline-grid;
+      contents	        display: contents;
+      list-item	        display: list-item;
+      hidden	          display: none;
+    -->
+
+<!-- Z-Index
+      z-0	    z-index: 0;
+      z-10	  z-index: 10;
+      z-20	  z-index: 20;
+      z-30	  z-index: 30;
+      z-40	  z-index: 40;
+      z-50	  z-index: 50;
+      z-auto	z-index: auto;
+    -->
+
+<!-- Float
+      float-right	  float: right;
+      float-left	  float: left;
+      float-none	  float: none;
+    -->
